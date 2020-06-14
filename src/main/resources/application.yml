@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name:  com.mysql.cj.jdbc.Driver
+    url:  jdbc:mysql://127.0.0.1:3306/databaseone?useSSL=false&characterEncoding=utf-8&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username:  root
+    password:  thw217335
+    tomcat:
+      max-wait: 30000
+      test-on-borrow: true
+    type: com.zaxxer.hikari.HikariDataSource
+mybatis:
+  type-aliases-package: com.thwcompany.demo.pojo
+  mapper-locations:  classpath:/mapper/*Mapper.xml
