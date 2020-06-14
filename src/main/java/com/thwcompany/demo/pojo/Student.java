@@ -2,7 +2,6 @@ package com.thwcompany.demo.pojo;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 /**
  * @PROJECT_NAME: springbootdemoone
  * @PACKAGE_NAME: com.thwcompany.demo.entity
